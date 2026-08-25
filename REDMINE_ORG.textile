@@ -1,0 +1,34 @@
+h1. Redmine XLSX Export
+
+Adds XLSX downloads for Redmine issue, time-entry, user and project lists.
+
+h2. Features
+
+* Export issues, time entries, users and projects.
+* Select the columns included in the workbook.
+* Link workbook rows back to Redmine records.
+* Compatible with Redmine 5.x and 6.x.
+
+h2. Installation
+
+From the Redmine directory:
+
+<pre>
+cd plugins
+git clone https://github.com/redmineservices/redmine_xlsx_export.git
+cd ..
+bundle install
+</pre>
+
+Restart Redmine. No database migration is required.
+
+h2. Source and support
+
+"GitHub":https://github.com/redmineservices/redmine_xlsx_export
+
+Security reports: info@redmineservices.com
+
+h2. Credits and license
+
+Originally created by Tatsuya Saito and later maintained by two-pack. This
+Redmine Services port is released under the GNU General Public License v2.0.
